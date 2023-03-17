@@ -6,12 +6,12 @@ body {
       margin-right: auto;
     }
     
-    h1 {
+    .titulo{
       background-color: #E1EDF2;
       padding: 10px;
     }
     
-    h2 {
+    .subtitulo{
       border-bottom: 2px solid black;
     }
     
@@ -23,7 +23,21 @@ body {
       padding: 15px;
       border: 1px solid lightgrey;
       color:#3D3D3D
+
     }
     figcaption {
         margin-top: 10px;
+    }
+    #figuramatriz{
+     width: 550px;
+     margin: 0 auto;
+    }
+    #figurafamilia{
+    width: 375px;
+    float: right;
+    }
+    figure img{
+     height: inherit;
+     width:  inherit;
+
     }
