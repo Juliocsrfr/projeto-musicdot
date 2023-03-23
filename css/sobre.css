@@ -1,43 +1,93 @@
 body {
-      width: 940px;
-      font-family: "Helvetica", "Lucida Grande", sans-serif;
-      color: #3D3D3D;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    
-    .titulo{
-      background-color: #E1EDF2;
-      padding: 10px;
-    }
-    
-    .subtitulo{
-      border-bottom: 2px solid black;
-    }
-    
-    figure {
-      text-align: center;
-    
-      background-color: whitesmoke;
-      margin: 30px;
-      padding: 15px;
-      border: 1px solid lightgrey;
-      color:#3D3D3D
+  width: 940px;
+  font-family: "Helvetica", "Lucida Grande", sans-serif;
+  color: #3D3D3D;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-    }
-    figcaption {
-        margin-top: 10px;
-    }
-    #figuramatriz{
-     width: 550px;
-     margin: 0 auto;
-    }
-    #figurafamilia{
-    width: 375px;
-    float: right;
-    }
-    figure img{
-     height: inherit;
-     width:  inherit;
+.titulo {
+  background-color: #E1EDF2;
+  padding: 10px;
+}
 
-    }
+.subtitulo {
+  border-bottom: 2px solid black;
+}
+
+figure {
+  text-align: center;
+
+  background-color: whitesmoke;
+  margin: 30px;
+  padding: 15px;
+  border: 1px solid lightgrey;
+  color: #3D3D3D
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
+#figuramatriz {
+  width: 550px;
+  margin: 0 auto;
+}
+
+#figurafamilia {
+  width: 375px;
+  float: right;
+}
+
+figure img {
+  height: inherit;
+  width: inherit;
+
+}
+
+.contato__subtitulo {
+  display: inline;
+}
+
+.contato__info {
+  margin: 16px 0 24px;
+  padding-left: 32px;
+
+}
+
+.contato__info-titulo,
+.contato__info-descricao {
+  display: inline;
+}
+
+.contato__info-descricao {
+  margin-left: 10px;
+}
+
+.contato__secao {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 16px;
+}
+
+.contato__secao--telefone {
+  margin-left: 32px;
+}
+
+.rodaape {
+  padding: 1.75em 0;
+  font-size: 1.1rem;
+}
+
+.radape__logo {
+  width: 6em;
+}
+
+.rodape__copyright {
+  display: inline;
+  margin-left: 1em;
+}
+
+
+
+
